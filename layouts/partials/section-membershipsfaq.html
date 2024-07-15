@@ -1,0 +1,58 @@
+{{ if .Site.Params.membershipsfaq.enable }}
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/covers/wr-frontpage-cover@5x.png" loading="lazy" alt="Author">
+  </div>
+  <em>Photo provided by <a href="https://via.placeholder.com/1600x1200" target="_blank">The Whiterocker</a></em>
+</div>
+
+<h1>Becoming a member</h1>
+
+<li style="font-size: 1.3em;">To apply, you must contact memberships@thewhiterocker.com</li>
+<li style="font-size: 1.3em;">If you are contacted, you will be given a one week membership complementary of the club.</li>
+<li style="font-size: 1.3em;">Local Dallas department law enforcement and first responder officials/members will be offered a substancial discount and a different waitlist.</li>
+
+
+<h1 style="padding-top: 100px;">Member Benefits</h1>
+
+<li style="font-size: 1.3em;">24 hour access to the clubhouse.</li>
+<li style="font-size: 1.3em;">Ability to rent out the gaming room inside the club. Contact management@thewhiterocker.com for hosting private events.</li>
+<li style="font-size: 1.3em;">Unlimited free drinks and pastries from <i>The Whiterocker Café</i>.</li>
+
+<!-- begin section faq -->
+<section class="section section-faq animate" style="padding-top: 100px;">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="section__info section__info__center">
+          <div class="section__head">
+            {{ if .Site.Params.membershipsfaq.faq_intro }}
+            <span class="section__intro">{{ .Site.Params.faq.faq_intro }}</span>
+            {{ end }}
+            {{ if .Site.Params.membershipsfaq.faq_title }}
+            <h2 class="section__title">{{ .Site.Params.faq.faq_title }}</h2>
+            {{ end }}
+          </div>
+        </div>
+
+        <div class="faq">
+          {{ with .Site.Params.membershipsfaq_item }}
+            {{ range . }}
+            <div class="faq__item" tabindex="0" data-name="closed">
+              <h3 class="faq__title">{{ .title }}<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none"><path fill="var(--heading-font-color)" d="M8.654 1.168a1.153 1.153 0 1 0-2.308 0V6.36H1.154a1.153 1.153 0 1 0 0 2.308h5.192v5.192a1.153 1.153 0 1 0 2.308 0V8.668h5.192c.638 0 1.154-.516 1.154-1.154 0-.639-.516-1.154-1.154-1.154H8.654V1.168Z"/></svg></h3>
+              <div class="faq__description">
+                <p>{{ .description }}</p>
+              </div>
+            </div>
+            {{ end }}
+          {{ end }}
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section faq -->
+{{ end }}
