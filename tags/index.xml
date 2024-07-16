@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on The Whiterocker</title>
+    <link>https://mendoza-git.github.io/the-whiterocker/tags/</link>
+    <description>Recent content in Tags on The Whiterocker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jan 2024 15:01:35 +0300</lastBuildDate><atom:link href="https://mendoza-git.github.io/the-whiterocker/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mobile</title>
+      <link>https://mendoza-git.github.io/the-whiterocker/tags/mobile/</link>
+      <pubDate>Tue, 16 Jan 2024 15:01:35 +0300</pubDate>
+      
+      <guid>https://mendoza-git.github.io/the-whiterocker/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reading</title>
+      <link>https://mendoza-git.github.io/the-whiterocker/tags/reading/</link>
+      <pubDate>Tue, 16 Jan 2024 15:01:35 +0300</pubDate>
+      
+      <guid>https://mendoza-git.github.io/the-whiterocker/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
