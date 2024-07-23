@@ -1,17 +1,13 @@
 ---
 title: About The Club
-description: I am an expert user experience strategist and mobile developer, driven by a relentless pursuit of innovation and excellence. My journey in the tech world has been shaped by a commitment to creating solutions that not only meet but exceed user expectations.
+description: Situated near the serene and picturesque White Rock Lake, our club offers a haven of relaxation, camaraderie, and exclusive amenities for our members. We pride ourselves on creating an environment where lasting friendships are formed, and unforgettable memories are made.
 image: 'https://via.placeholder.com/1600x1200'
 ---
-As a user experience strategist, I specialize in understanding the intricacies of user behavior and translating them into intuitive and enjoyable digital interfaces. My approach is rooted in empathy, ensuring that every design decision considers the end-user's perspective.
 
-## Mobile development maven
+## Our Mission
 
-In the realm of mobile development, I thrive on turning ideas into functional and aesthetically pleasing applications. From concept to deployment, I am dedicated to delivering mobile solutions that seamlessly integrate with users' lives.
+At The Whiterocker, our mission is to bring prosperity, joy, and a sense of community to all our members. We are dedicated to providing exceptional services, enriching experiences, and fostering a warm, welcoming atmosphere that reflects the values of our local community.
 
-> To design is to communicate clearly by whatever means you can control or master - Milton Glaser
-
-In the realm of mobile development, I thrive on turning ideas into functional and aesthetically pleasing applications. From concept to deployment, I am dedicated to delivering mobile solutions that seamlessly integrate with users' lives.
 
 <div class="gallery-box">
   <div class="gallery">

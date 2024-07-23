@@ -26,9 +26,27 @@ paginate = 6
     weight = 3
 
   [[menu.main]]
-  name = "ABOUT"
-  url = "/about/"
-  weight = 5
+    name = "COMPANY"
+    weight = 4
+    hasChildren = true
+
+      [[menu.main]]
+        parent = "COMPANY"
+        name = "ABOUT THE CLUB"
+        url = "/about/"
+        weight = 1
+
+      [[menu.main]]
+        parent = "COMPANY"
+        name = "JOIN THE TEAM"
+        url = "/career-opportunities/"
+        weight = 2
+
+      [[menu.main]]
+        parent = "COMPANY"
+        name = "CONTACT US"
+        url = "/contact/"
+        weight = 3
 
   # Footer Menu
   [[menu.footer]]
@@ -217,7 +235,7 @@ paginate = 6
   [params.author_section]
     enable = true
     author_section_title = "Welcome, friend."
-    author_section_description = "You have reached the website of <b><i>The Whiterocker</i></b>. We are a local private members club located near the famous White Rock Lake in Dallas, Texas. We strive always to bring prosperity and joy to our local community. Always feel free to reach out or explore our site to learn more about the club."
+    author_section_description = "Discover the charm and community spirit of <b><a href='https://www.thewhiterocker.com'>The Whiterocker</a></b>, a distinguished private members club nestled near the iconic <b><a href='https://en.wikipedia.org/wiki/White_Rock_Lake'>White Rock Lake</a></b> in <b><a href='https://en.wikipedia.org/wiki/Dallas'>Dallas, Texas</a></b>. Our mission is to foster prosperity, joy, and a sense of belonging within our local community.<br><br>Explore our site to learn more about our exclusive amenities, upcoming events, and membership opportunities. Feel free to reach out to us with any questions or for more information."
     author_section_image = "/images/covers/wr-frontpage-cover-2@5x.png"
     author_section_image_alt = ""
     author_section_button_text = "CONNECT"
