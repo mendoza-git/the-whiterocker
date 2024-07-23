@@ -85,6 +85,7 @@
       text-underline-offset: 3px;
       color: var(--heading-font-color);
       transition: $global-transition;
+      font-family: "DM Sans", sans-serif;
 
       &:hover {
         text-decoration-color: var(--heading-font-color);

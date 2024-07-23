@@ -238,7 +238,7 @@ paginate = 6
     author_section_description = "Discover the charm and community spirit of <b><a href='https://www.thewhiterocker.com'>The Whiterocker</a></b>, a distinguished private members club nestled near the iconic <b><a href='https://en.wikipedia.org/wiki/White_Rock_Lake'>White Rock Lake</a></b> in <b><a href='https://en.wikipedia.org/wiki/Dallas'>Dallas, Texas</a></b>. Our mission is to foster prosperity, joy, and a sense of belonging within our local community.<br><br>Explore our site to learn more about our exclusive amenities, upcoming events, and membership opportunities. Feel free to reach out to us with any questions or for more information."
     author_section_image = "/images/covers/wr-frontpage-cover-2@5x.png"
     author_section_image_alt = ""
-    author_section_button_text = "CONNECT"
+    author_section_button_text = ""
     author_section_button_link = "/contact"
 
 

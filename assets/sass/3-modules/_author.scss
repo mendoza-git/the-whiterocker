@@ -52,7 +52,7 @@
       max-width: 440px;
 
       .author__title {
-        font-size: 42px;
+        font-size: 4em;
       }
     }
   }
@@ -87,7 +87,7 @@
   @media (max-width: $mobile) {
     .author__content {
       .author__title {
-        font-size: 32px;
+        font-size: 3em;
       }
     }
   }
