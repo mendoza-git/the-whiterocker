@@ -191,11 +191,11 @@ paginate = 6
 
   [[params.faq_item]]
     title = "Where are you located?"
-    description = "We are located inside the cafe shop with the sign, 'The Whiterocker | Cafe'. The entrance to the clubhouse is through the shop."
+    description = "Our clubhouse is conveniently situated within The Whiterocker Cafe. Please access the clubhouse through the entrance of the cafe."
 
   [[params.faq_item]]
     title = "How can I become a member?"
-    description = "Unfortunately, there is a waitlist at the moment to join the club. We can provide a more detailed status if you send an inquiry to memberships@thewhiterocker.com. We apologize for this inconvenience."
+    description = "Regrettably, there is currently a waitlist for club membership. For a detailed status update, please send an inquiry to memberships@thewhiterocker.com. We apologize for any inconvenience this may cause."
 
   [[params.faq_item]]
     title = "Is the cafe open to the public?"
