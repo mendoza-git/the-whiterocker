@@ -26,8 +26,13 @@ paginate = 6
     weight = 3
 
   [[menu.main]]
-    name = "COMPANY"
+    name = "CAFÉ"
+    url = "/cafe/"
     weight = 4
+
+  [[menu.main]]
+    name = "COMPANY"
+    weight = 5
     hasChildren = true
 
       [[menu.main]]
@@ -191,15 +196,15 @@ paginate = 6
 
   [[params.faq_item]]
     title = "Where are you located?"
-    description = "Our clubhouse is conveniently situated within The Whiterocker Cafe. Please access the clubhouse through the entrance of the cafe."
+    description = "Our clubhouse is conveniently situated within The Whiterocker Cafe. Please access the clubhouse through the entrance of the café."
 
   [[params.faq_item]]
     title = "How can I become a member?"
     description = "Regrettably, there is currently a waitlist for club membership. For a detailed status update, please send an inquiry to memberships@thewhiterocker.com. We apologize for any inconvenience this may cause."
 
   [[params.faq_item]]
-    title = "Is the cafe open to the public?"
-    description = "Yes. Anyone is always welcome at the cafe during normal business hours. We encourage you to stay as long as possible. We have free WiFi and a large collection of books for your leisure."
+    title = "Is the café open to the public?"
+    description = "Yes. Anyone is always welcome at the café during normal business hours. We encourage you to stay as long as possible. We have free WiFi and a large collection of books for your leisure."
 
   [[params.faq_item]]
     title = "You have poker?"

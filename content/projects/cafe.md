@@ -1,6 +1,6 @@
 ---
 title:  The Whiterocker | Café
-description: Elevate your workout experience with our guide to the "Top 10 Men's Fragrances for Going to the Gym." From invigorating citrus bursts to long-lasting freshness, discover scents that not only keep you motivated but also leave a subtle and energizing trail as you conquer your fitness goals.
+description: 
 date:   2022-05-06 15:01:35 +0300
 authors: []
 image:  '../images/covers/whiterocker-cafe-cover@5x.png'
@@ -10,8 +10,8 @@ featured: true
 ---
 
 <div class="gallery-box">
-  <div class="gallery gallery--post">
-    <img src="" width="300" height="300" loading="lazy" alt="">
+  <div class="gallery">
+    <img src="../../static/images/whiterocker-cafe-menu@5x.png" loading="lazy" alt="Author">
   </div>
-  <em><a href="" target="_blank"></a></em>
+  <em>Photo of <b>White Rock Lake</b></em>
 </div>

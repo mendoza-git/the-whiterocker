@@ -3,7 +3,7 @@ title:  The Whiterocker Clubhouse
 description: 
 date:   2024-01-06 15:01:35 +0300
 authors: []
-image:  '../images/covers/whiterocker-lounge-cover@5x.png'
+image:  '/images/whiterocker-lounge-cover@5x.png'
 video_embed:
 tags_color: '#065535'
 featured: true

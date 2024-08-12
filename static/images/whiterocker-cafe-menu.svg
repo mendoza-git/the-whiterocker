@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Cinzel">@import url(https://fonts.googleapis.com/css2?family=Cinzel%3Aital%2Cwght%400%2C400..900&amp;display=swap);</style>
+  </defs>
+  <rect width="500" height="500" style="fill: rgb(13, 119, 109); stroke: rgb(13, 119, 109);"/>
+  <g transform="matrix(0.775824, 0, 0, 0.701513, -148.726227, -201.838394)" style="">
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 457; text-anchor: middle; white-space: pre;" transform="matrix(0.97823, 0, 0, 1.07321, 334.726288, 191.46489)"><tspan x="210.563" y="145.775" style="font-weight: 556.25;">THE WHITEROCKER</tspan><tspan> | café</tspan><tspan x="210.563" dy="1em">​</tspan></text>
+    <g transform="matrix(0.111491, 0, 0, 0.104029, 305.463135, 304.558136)" style="">
+      <path class="st0" d="M431.684,252.936c-40.578-32.779-150.62-185.32-171.561-247.398C258.899,1.913,257.845,0,255.988,0&#10;&#9;&#9;c-1.832,0-2.894,1.913-4.11,5.538C230.92,67.616,120.894,220.157,80.308,252.936c-1.053,0.843-1.946,2.44-1.946,3.064&#10;&#9;&#9;c0,0.624,0.893,2.222,1.946,3.057c40.586,32.778,150.612,185.319,171.57,247.406c1.216,3.624,2.278,5.537,4.11,5.537&#10;&#9;&#9;c1.857,0,2.911-1.913,4.135-5.537c20.941-62.087,130.983-214.628,171.561-247.406c1.046-0.835,1.954-2.432,1.954-3.057&#10;&#9;&#9;C433.638,255.376,432.73,253.778,431.684,252.936z" style="stroke-width: 15.2014px; fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);"/>
+    </g>
+    <g transform="matrix(-0.05028, 0, 0, 0.045444, 345.430817, 318.701447)" style="">
+      <path class="st0" d="M462.632,283.152c23.08-38.464-7.688-76.928-30.768-50.008c-96.724,92.511-202.392,60.596-202.392,60.596&#10;&#9;&#9;s-61.852-13.814-66.705-54.039c-9.89-82.13,42.71-104.696,42.71-165.848C205.478,33.062,172.417,0,131.634,0&#10;&#9;&#9;C94.101,0,63.201,28.017,58.48,64.253c-9.242,9.55-29.197,28.798-43.384,32.671c-18.334,5.003,17.894,17.968,56.15,15.849&#10;&#9;&#9;c17.013,23.454,28.698,36.536,4.986,119.232c-61.518,158.401,60.356,269.944,160.255,278.862&#10;&#9;&#9;C451.886,530.1,501.096,297.995,501.096,297.995C504.943,266.679,493.408,248.536,462.632,283.152z" style=""/>
+    </g>
+  </g>
+  <g>
+    <text style="fill: rgb(255, 209, 12); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" transform="matrix(0.467089, 0, 0, 0.498786, 124.526146, 4.693972)" x="75.266" y="129.788">coffee</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 17.8802px; font-weight: 506; line-height: 28.6084px; white-space: pre;" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 17.992605)" x="153.638" y="210.678">(hot and iced)</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="310.987" y="129.788" transform="matrix(0.467089, 0, 0, 0.498786, 124.526146, 4.693972)">s</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="366.964" y="131.301" transform="matrix(0.467089, 0, 0, 0.498786, 124.526146, 4.693972)">m</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="434.4" y="131.301" transform="matrix(0.467089, 0, 0, 0.498786, 124.526146, 4.693972)">l</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 32.135826)">$2.75</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 32.135826)">$3.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 281.843994, 32.135826)">$3.25</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 32.554802)">hot house coffee</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 42.772366)">iced house coffee</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 43.130058)">$3.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 42.711082)">$3.50</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre; transform-box: fill-box; transform-origin: 70.8655% 60.0889%;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 136.903625, -106.815239)">$3.75</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 53.705322)">cold brew</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 53.705322)">$4.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 53.705322)">$4.50</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 281.843994, 53.286339)">$4.75</text>
+    <text style="fill: rgb(255, 209, 12); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" transform="matrix(0.467089, 0, 0, 0.498786, 124.526146, 4.693972)" x="75.266" y="265.36">hot expresso</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 91.016174)">$3.50</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 91.016174)">$2.75</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 91.43515)">expresso</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 101.65271)">doppio</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 102.010399)">$4.50</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 101.591431)">$2.75</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 112.58567)">hot americano</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 112.58567)">$3.75</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 112.58567)">$4.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 281.843994, 112.166687)">$4.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 123.160934)">$4.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 123.160934)">$2.75</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 123.579903)">hot macchiato</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 118.836502, 133.79747)">hot cortado</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 223.807251, 134.155167)">$4.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 253.756714, 133.736176)">$2.75</text>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.632057, -5.46296)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">hot cappuccino</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$4.75</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$2.75</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.62867, 5.61557)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">hot flat white</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$4.95</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$2.75</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 310.442627, 243.962448)">$2.75</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.63208, 16.694099)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">hot latte</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$4.50</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$5.00</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.628662, 27.772629)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">hot mocha</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$5.50</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$5.75</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.628662, 38.851158)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">hot white mocha</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$5.50</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$5.75</text>
+    </g>
+    <text style="fill: rgb(255, 209, 12); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" transform="matrix(0.467089, 0, 0, 0.498786, 124.522728, 138.458725)" x="75.266" y="265.36">cold expresso</text>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.62867, 75.108612)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">iced americano</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$4.00</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$4.25</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 310.442627, 243.962448)">$4.50</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.63208, 86.187141)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">iced macchiato</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$4.25</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$4.50</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 310.442627, 243.962448)">$4.75</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.63208, 97.265671)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">iced flat white</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$5.00</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$5.25</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.63208, 108.3442)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">iced lattee</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$4.75</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$5.00</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 310.442627, 243.962448)">$5.25</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.632088, 119.422729)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">iced mocha</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$5.75</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$6.00</text>
+    </g>
+    <g transform="matrix(0.5805, 0, 0, 0.613924, 101.63208, 130.501251)">
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 29.637291, 244.644897)">iced white mocha</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 210.465454, 244.644897)">$5.75</text>
+      <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.457977, 0, 0, 0.454388, 262.057983, 244.644897)">$6.00</text>
+    </g>
+    <text style="fill: rgb(255, 209, 12); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" transform="matrix(0.467089, 0, 0, 0.498786, 196.637787, 233.121796)" x="75.266" y="265.36">extras</text>
+    <text style="fill: rgb(255, 209, 12); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" transform="matrix(0.332465, 0, 0, 0.371596, 99.410927, 287.058228)" x="75.266" y="265.36">syrups &amp; sauces - $1.00</text>
+    <text style="fill: rgb(255, 209, 12); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" transform="matrix(0.322273, 0, 0, 0.370847, 252.125336, 287.393555)" x="75.266" y="265.36">alternative milks - $1.00</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 338.583893)">simple syrup</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.887108, 349.300079)">caramel</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 360.016235)">vanilla</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 370.732361)">strawberry</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 381.448517)">chocolate</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 392.164703)">white chocolate</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 402.880859)">cinnamon</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 413.597046)">honey</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 83.588715, 424.313202)">brown sugar</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 235.231781, 338.583893)">half and half</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 235.23175, 349.111694)">almond milk</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 235.231766, 359.82782)">oat milk</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 235.231766, 370.732391)">lactose-free milk</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 235.231766, 381.448517)">soy milk</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" x="153.638" y="210.678" transform="matrix(0.265856, 0, 0, 0.27896, 234.936523, 392.164703)">smik milk</text>
+    <text style="fill: rgb(255, 209, 12); font-family: Cinzel; font-size: 28px; font-weight: 506; white-space: pre;" transform="matrix(0.265856, 0, 0, 0.27896, 234.936523, 424.313202)" x="153.638" y="210.678">extra expresso - $1.50</text>
+  </g>
+</svg>
