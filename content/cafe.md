@@ -1,6 +1,6 @@
 ---
 title: A Café For All
-description: Where Coffee Meets Community at the Shores of White Rock Lake. Check out our menu and learn more about the café.
+description: Our menu is thoughtfully crafted to offer a delightful blend of classic favorites and unique creations, perfect for every palate.
 image: ''
 ---
 
@@ -11,7 +11,7 @@ image: ''
   <em>The Whiterocker Café Menu</em>
 </div>
 
-Our menu is thoughtfully crafted to offer a delightful blend of classic favorites and unique creations, perfect for every palate.
+Discover a café experience like no other at The Whiterocker. Join us today and become a part of our community. Whether you’re a coffee enthusiast, a casual drinker, or just looking for a new favorite spot in Dallas, we’re here to welcome you with open arms and a perfect cup of coffee.
 
 ## Specialty Coffees
 
