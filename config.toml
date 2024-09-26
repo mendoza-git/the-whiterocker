@@ -78,8 +78,8 @@ paginate = 6
   # Call to action button
   [params.cta_button]
     enable = true
-    cta_button_link = "/contact/"
-    cta_button_text = "Get in touch"
+    cta_button_link = "www.thewhiterockerpoker.com"
+    cta_button_text = "Member Login"
 
 
 [params]
