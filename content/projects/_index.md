@@ -1,4 +1,4 @@
 ---
-title: Services
-description: Browse to see what we have to offer. We have services available for all visitors.
+title: Truck Schedule
+description:  Check out where we'll be during these upcoming events.
 ---

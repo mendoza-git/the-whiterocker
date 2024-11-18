@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleTheme = document.querySelector(".toggle-theme"),
     splides = document.querySelector(".hero__logos"),
     featuredSlider = document.querySelector(".featured__slider__inner"),
-    testimonialsSlider = document.querySelector(".testimonials__slider");
+    testimonialsSlider = document.querySelector(".testimonials__slider"),
+    locationsSlider = document.querySelector(".locations__slider");
 
 
   /* =======================================================
@@ -116,6 +117,35 @@ document.addEventListener("DOMContentLoaded", function() {
     } ).mount(window.splide.Extensions);
   }
 
+
+  /* ============================
+  // Testimonials Slider
+  ============================ */
+  if (locationsSlider) {
+    new Splide( locationsSlider, {
+      perPage: 3,
+      perMove: 1,
+      gap: 32,
+      arrows: false,
+      drag: false,
+      pagination: false,
+      type: 'loop',
+      autoScroll: {
+        autoStart: true,
+        speed: 0.8,
+        pauseOnHover: false,
+        pauseOnFocus: false
+      },
+      breakpoints: {
+        1024: {
+          perPage: 2
+        },
+        768: {
+          perPage: 1
+        }
+      }
+    }).mount(window.splide.Extensions);
+  }
 
   /* ================================================================
   // Stop Animations During Window Resizing and Switching Theme Modes

@@ -2,7 +2,7 @@
 .post__head,
 .page__head {
   max-width: 780px;
-  margin: 60px auto 32px;
+  margin: 60px 0;
 
   @media (max-width: $tablet) {
     margin: 32px 0;
@@ -10,16 +10,14 @@
 }
 
 .page-section-head {
-  display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 40px;
   margin-bottom: 60px;
-  padding-bottom: 60px;
-  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 20px;
 
   .page-title {
-    font-size: 80px;
+    font-size: 52px;
     line-height: 1;
     margin-right: 60px;
     margin-bottom: 0;
@@ -29,6 +27,7 @@
     max-width: 768px;
     margin-bottom: 0;
     color: var(--text-alt-color);
+    margin-top: 24px;
   }
 
   @media (max-width: $desktop) {

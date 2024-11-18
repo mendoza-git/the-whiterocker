@@ -1,0 +1,77 @@
+{{ if .Site.Params.locations.enable }}
+<!-- begin locations -->
+<section class="section locations animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="section__info section__info__center">
+          <div class="section__head">
+            {{ if .Site.Params.locations.locations_intro }}
+            <span class="section__intro">{{ .Site.Params.locations.locations_intro }}</span>
+            {{ end }}
+            {{ if .Site.Params.locations.locations_title }}
+            <h2 class="section__title">{{ .Site.Params.locations.locations_title | safeHTML }}</h2>
+            {{ end }}
+          </div>
+        </div>
+
+        <div class="locations__slider splide">
+          <div class="splide__track">
+            <div class="splide__list">
+              {{ with .Site.Params.location_item }}
+                {{ range . }}
+                  <div class="location-item splide__slide">
+                    <div class="location-content">
+                    {{ if .image }}
+                        <div class="image-container">
+                          <img class="client-avatar" src="{{ .image }}" alt="{{ .name }}">
+                        </div>
+                      {{ end }}
+                      {{ if .title }}
+                        <h3 class="client-title">{{ .title }}</h3>
+                      {{ end }}
+                      {{ if .content }}
+                        <p class="client-text">{{ .content }}</p>
+                      {{ end }}
+                      <!-- <div class="client-meta">
+                        <div class="client-info">
+                          {{ if .name }}
+                            <h4 class="client-name">{{ .name }}</h4>
+                          {{ end }}
+                          {{ if .designation }}
+                            <p class="client-designation">{{ .designation }}</p>
+                          {{ end }}
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+
+        <div class="client-list">
+          {{ if .Site.Params.locations.locations_info }}
+          <div class="client-list__info">{{ .Site.Params.locations.locations_info | safeHTML }}</div>
+          {{ end }}
+          <!-- <div class="client-list__box">
+          {{ with .Site.Params.location_item }}
+            {{ range . }}
+              {{ if .image }}
+              <div class="client-list__image">
+                <img class="client-list__avatar lazy" data-src="{{ .image }}" alt="{{ .name }}">
+              </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          </div> -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end locations -->
+{{ end }}

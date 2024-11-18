@@ -7,7 +7,10 @@
     align-items: center;
     flex-wrap: wrap;
     padding: $base-spacing-unit;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500;
   }
+  border-bottom: 1px solid var(--dark);
 }
 
 /* Logo */
@@ -21,7 +24,7 @@
 
 .logo__image,
 .logo__image__dark {
-  max-height: 5.5rem;
+  max-height: 6rem;
 }
 
 .logo__image__dark {
@@ -98,7 +101,6 @@
             display: block;
             padding: 7px 0;
             font-size: 16px;
-            font-weight: 800;
           }
         }
 
@@ -107,7 +109,6 @@
           padding: 7px 0;
           font-size: 16px;
           text-align: right;
-          font-weight: 800;
         }
       }
     }
@@ -140,16 +141,15 @@
     .nav__link {
       position: relative;
       padding: 12px 0;
-      font-size: 16px;
+      font-size: 20px;
       line-height: 1;
-      font-weight: 500;
+      font-weight: 400;
       text-decoration: underline;
       text-decoration-thickness: 1px;
       text-underline-offset: 3px;
       text-decoration-color: transparent;
       will-change: transform;
       transition: $global-transition;
-      font-weight: 800;
       width: max-content;
 
 
@@ -159,6 +159,7 @@
 
       &.active-link {
         text-decoration-color: var(--link-color);
+        font-weight: 500;
       }
     }
 
@@ -221,6 +222,8 @@
 
 .home-page .nav__item .nav__link.active-link {
   text-decoration-color: transparent;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 600;
 
   &:hover {
     text-decoration-color: var(--link-color);
@@ -302,9 +305,9 @@
 
     .cta-button {
       padding: 5px 15px;
-      margin-top: 14px;
+      margin-top: 20px;
       margin-left: 0;
-      font-size: 16px;
+      font-size: 20px;
     }
   }
 }
@@ -323,7 +326,7 @@
 
   .toggle-text {
     margin-left: 8px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: underline;
     text-decoration-color: transparent;

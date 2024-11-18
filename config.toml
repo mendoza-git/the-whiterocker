@@ -17,18 +17,13 @@ paginate = 6
 
   [[menu.main]]
     name = "SERVICES"
-    url = "/projects/"
+    url = "/services/"
     weight = 2
 
   [[menu.main]]
-    name = "MEMBERSHIPS"
-    url = "/posts/"
+    name = "SCHEDULE"
+    url = "/projects/"
     weight = 3
-
-  [[menu.main]]
-    name = "CAFÉ"
-    url = "/cafe/"
-    weight = 4
 
   [[menu.main]]
     name = "COMPANY"
@@ -65,11 +60,6 @@ paginate = 6
     weight = 2
 
   [[menu.footer]]
-    name = "MEMBERSHIPS"
-    url = "/posts/"
-    weight = 3
-
-  [[menu.footer]]
     name = "ABOUT"
     url = "/about/"
     weight = 4
@@ -79,12 +69,12 @@ paginate = 6
   [params.cta_button]
     enable = true
     cta_button_link = "www.thewhiterockerpoker.com"
-    cta_button_text = "Member Login"
+    cta_button_text = "MEMBER LOGIN"
 
 
 [params]
-  logo = "/images/whiterocker-logo-light@2x.png" # You can add own logo. For example "/images/logo.png".
-  logo_dark = "/images/whiterocker-logo-dark@2x.png"
+  logo = "/images/whiterocker-logo-light.svg"
+  logo_dark = "/images/whiterocker-logo-dark.svg"
   description = "Gerous is a modern portfolio Hugo theme"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -153,7 +143,7 @@ paginate = 6
   #-------------------------------
   # Testimonials Section
   [params.testimonials]
-    enable = false
+    enable = true
     testimonials_intro = "Don't take my word for it"
     testimonials_title = "See what our happy clients say..."
     testimonials_info = "Join over <b>10K+</b> Prefessionals"
@@ -172,44 +162,68 @@ paginate = 6
     title = "Collaborative partnership"
     content = "Our partnership with this team was characterized by open communication and collaborative efforts. They took the time to understand our goals and delivered a solution that perfectly aligns with our business objectives. Looking forward to future collaborations."
 
-  [[params.testimonial_item]]
-    name = "Carter Curtis"
-    image = "https://via.placeholder.com/120x120"
-    designation = "DevOps Engineer"
-    title = "Creative brilliance unleashed"
-    content = "Working with this creative powerhouse was an enlightening experience. Their brilliance in design thinking and creative solutions brought our project to life in ways we hadn't imagined. The team's passion for innovation is truly infectious."
+  #-------------------------------
+  # Locations Section
+  [params.locations]
+    enable = true
+    locations_intro = "Areas of Operation"
+    locations_title = "We're happy to see you all around the..."
+    locations_info = "Proudly serving the Dallas/Ft. Worth Metroplex and beyond."
 
-  [[params.testimonial_item]]
-    name = "Marcus Vaccaro"
-    image = "https://via.placeholder.com/120x120"
-    designation = "Systems Analyst"
-    title = "Efficient problem solvers"
-    content = "This team proved to be efficient problem solvers throughout our project. When faced with challenges, they tackled them with creativity and resourcefulness. Their ability to overcome obstacles ensured a smooth and successful project delivery."
+  [[params.location_item]]
+    name = "City of Dallas"
+    image = "/images/locations/dallas.jpg"
+    designation = ""
+    title = "City of Dallas"
+    content = ""
 
+    [[params.location_item]]
+    name = "City of Irving"
+    image = "/images/locations/irving.jpg"
+    designation = ""
+    title = "City of Irving"
+    content = ""
+
+    [[params.location_item]]
+    name = "City of Garland"
+    image = "/images/locations/garland.png"
+    designation = ""
+    title = "City of Garland"
+    content = ""
+
+    [[params.location_item]]
+    name = "City of Forth Worth"
+    image = "/images/locations/ftworth.png"
+    designation = ""
+    title = "City of Fort Worth"
+    content = ""
 
   #-------------------------------
   # Faq (Frequently asked questions) Settings
   [params.faq]
     enable = true
     faq_intro = "Need some answers?"
-    faq_title = "Frequently asked questions"
+    faq_title = "Frequently Asked Questions"
 
   [[params.faq_item]]
-    title = "Where are you located?"
-    description = "Our clubhouse is conveniently situated within The Whiterocker Cafe. Please access the clubhouse through the entrance of the café."
+    title = "Where can I find The Whiterocker on weekends?"
+    description = "The Whiterocker is available to the public most weekends, often stationed at sporting events and popular public spaces around Dallas. Check our schedule to find out where we’ll be next!"
 
   [[params.faq_item]]
-    title = "How can I become a member?"
-    description = "Regrettably, there is currently a waitlist for club membership. For a detailed status update, please send an inquiry to memberships@thewhiterocker.com. We apologize for any inconvenience this may cause."
+    title = "Can I rent The Whiterocker food truck for private events?"
+    description = "Yes! The Whiterocker is available for private catering, offering our full cafe service, food menu, and an optional poker dealer for an interactive experience. Bookings can be customized for parties, gatherings, and special events."
 
   [[params.faq_item]]
-    title = "Is the café open to the public?"
-    description = "Yes. Anyone is always welcome at the café during normal business hours. We encourage you to stay as long as possible. We have free WiFi and a large collection of books for your leisure."
+    title = "What services are included in a private catering rental?"
+    description = "Private rentals include our food and cafe services, with the option to add a poker dealer to host a game either inside the truck or in a setup near the truck, based on your preference."
 
   [[params.faq_item]]
-    title = "You have poker?"
-    description = "Yes. The private clubhouse does provide members with a dedicated game table that is suitable for any form of poker. At no point is real money used in any form or association with the games played on this equipment and we always strongly encourage members to not bring real money to the table. The club does not have a 'cage' or 'pit' or take a rake of any kind and no hourly rate is charged to the members for playing during non-reserved hours. The club simply provides an adequate table for playing cards and standard unit denomination chips to represent a point system for fair play. The equipment may be allocated for a reserved time of a maximum of 8 hours by club members for an hourly fee for member private events."
+    title = "Is there a minimum or maximum rental time for private events?"
+    description = "We work to accommodate your event’s unique needs. Our team will help customize timing and details, whether it's a few hours or a full day. Contact us for more specifics on scheduling."
 
+  [[params.faq_item]]
+    title = "How far in advance should I book The Whiterocker for a private event?"
+    description = "We recommend booking as early as possible, especially for weekend events, as availability can fill up quickly. Reach out to us with your event date, and we’ll work to accommodate your schedule."
 
   #-------------------------------
   # Faq (Frequently asked questions) Settings
@@ -239,9 +253,10 @@ paginate = 6
   # Author Section Settings
   [params.author_section]
     enable = true
-    author_section_title = "Welcome, friend."
-    author_section_description = "Discover the charm and community spirit of <b><a href='https://www.thewhiterocker.com'>The Whiterocker</a></b>, a distinguished private members club nestled near the iconic <b><a href='https://en.wikipedia.org/wiki/White_Rock_Lake'>White Rock Lake</a></b> in <b><a href='https://en.wikipedia.org/wiki/Dallas'>Dallas, Texas</a></b>. Our mission is to foster prosperity, joy, and a sense of belonging within our local community.<br><br>Explore our site to learn more about our exclusive amenities, upcoming events, and membership opportunities. Feel free to reach out to us with any questions or for more information."
-    author_section_image = "/images/covers/wr-frontpage-cover-2@5x.png"
+    author_section_title = "Welcome to The Whiterocker"
+    author_section_subtitle = ""
+    author_section_description = "The Whiterocker is a food truck experience like no other. Inspired by the serenity and camaraderie found around White Rock Lake, we’ve crafted a mobile cafe that’s all about bringing people together over great food and drinks. Whether you’re stopping by for a fresh brew, a tasty bite, or just to relax and connect, The Whiterocker is here to serve up comfort and community wherever you find us. Join us as we roll through the city, spreading good vibes and creating memorable moments, one stop at a time."
+    author_section_image = ""
     author_section_image_alt = ""
     author_section_button_text = ""
     author_section_button_link = "/contact"

@@ -5,16 +5,24 @@
     <div class="row">
       <div class="col col-12">
         <div class="author__inner">
-
-          {{ if .Site.Params.author_section.author_section_image }}
+          <!-- {{ if .Site.Params.author_section.author_section_image }}
           <div class="author__image">
             <img class="lazy" data-src="{{ .Site.Params.author_section.author_section_image }}" alt="{{ .Site.Params.author_section.author_section_image_alt }}">
           </div>
-          {{ end }}
-
+          {{ end }} -->
           <div class="author__content">
+            <div class="wrapper">
+              <div class="card red">♦️</div>
+              <div class="card red">♦️</div>
+              <div class="card red"><img class="logo_image" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Title }}"></div>
+              <div class="card red">♦️</div>
+              <div class="card red">♦️</div>
+            </div>
             {{ if .Site.Params.author_section.author_section_title }}
             <h2 class="author__title">{{ .Site.Params.author_section.author_section_title | safeHTML }}</h2>
+            {{ end }}
+            {{ if .Site.Params.author_section.author_section_subtitle }}
+            <h3 class="author__subtitle">{{ .Site.Params.author_section.author_section_subtitle | safeHTML }}</h3>
             {{ end }}
             {{ if .Site.Params.author_section.author_section_description }}
             <p class="author__description">{{ .Site.Params.author_section.author_section_description | safeHTML }}</p>
@@ -23,7 +31,6 @@
             <a href="{{ .Site.Params.author_section.author_section_button_link | relURL }}" class="author__button button">{{ .Site.Params.author_section.author_section_button_text }}</a>
             {{ end }}
           </div>
-
         </div>
       </div>
     </div>
