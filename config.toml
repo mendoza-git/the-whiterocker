@@ -73,8 +73,8 @@ paginate = 6
 
 
 [params]
-  logo = "/images/whiterocker-logo-light.svg"
-  logo_dark = "/images/whiterocker-logo-dark.svg"
+  logo = "/images/whiterocker-logo-light.png"
+  logo_dark = "/images/whiterocker-logo-dark.png"
   description = "Gerous is a modern portfolio Hugo theme"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
