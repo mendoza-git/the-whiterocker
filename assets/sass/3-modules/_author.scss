@@ -6,11 +6,11 @@
   padding-bottom: 20px;
 
   h2 {
-    color: var(--dark) !important;
+    color: var(--author-text-alt-color) !important;
   }
 
   p {
-    color: var(--dark) !important;
+    color: var(--text-alt-color) !important;
   }
 
   .author__image {
@@ -46,7 +46,10 @@
       margin-top: 24px;
       font-size: 3rem;
       line-height: 1;
-      font-weight: 500;
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;    
     }
 
     .author__description {
@@ -135,19 +138,19 @@
   justify-content: center;
   height: 100%;
 }
-// .wrapper:hover > .card {
-//   margin-left: 20px;
-//   margin-right: 20px;
-//   transform: none;
-// }
-// .wrapper:hover :nth-child(1),
-// .wrapper:hover :nth-child(3) {
-//   margin-right: 0;
-// }
-// .wrapper:hover :nth-child(3),
-// .wrapper:hover :nth-child(5) {
-//   margin-left: 0;
-// }
+.wrapper:hover > .card {
+  margin-left: 20px;
+  margin-right: 20px;
+  transform: none;
+}
+.wrapper:hover :nth-child(1),
+.wrapper:hover :nth-child(3) {
+  margin-right: 0;
+}
+.wrapper:hover :nth-child(3),
+.wrapper:hover :nth-child(5) {
+  margin-left: 0;
+}
 .red {
   color: #e8282d;
 }
@@ -232,11 +235,14 @@
 }
 
 .author {
+  background-image: url('/images/backgrounds/boats.jpg');
+  background-size: contain;
   .container {
     background-color: var(--author-content-outline-color);
   }
   .author__content {
-    background-color: var(--author-content-background-color);
+    color: var(--text-alt-color);
+    background-color: var(--author-content-background-color) !important;
   }
   @media (max-width: $desktop) {
     .wrapper {
