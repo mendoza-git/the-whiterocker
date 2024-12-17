@@ -38,15 +38,15 @@ paginate = 6
 
       [[menu.main]]
         parent = "COMPANY"
-        name = "JOIN THE TEAM"
-        url = "/career-opportunities/"
+        name = "CONTACT US"
+        url = "/contact/"
         weight = 2
 
       [[menu.main]]
         parent = "COMPANY"
-        name = "CONTACT US"
-        url = "/contact/"
-        weight = 3
+        name = "CURRENT MENU"
+        url = "/menu/"
+        weight = 2
 
   # Footer Menu
   [[menu.footer]]
@@ -73,10 +73,17 @@ paginate = 6
 
 
 [params]
+  center_image = "/images/author-image@6x.png"
   logo = "/images/whiterocker-logo-light.png"
   logo_dark = "/images/whiterocker-logo-dark.png"
   description = "Gerous is a modern portfolio Hugo theme"
-  color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+  color_scheme = "auto"
+  landing="/images/pngs/landing-icon-light.png"
+  landing_dark="/images/pngs/landing-icon-dark.png"
+  catering="/images/pngs/catering-light.png"
+  catering_dark="/images/pngs/catering-dark.png"
+  community="/images/pngs/community-icon-light.png"
+  community_dark="/images/pngs/community-icon-dark.png"
 
 
   #-------------------------------
@@ -253,7 +260,7 @@ paginate = 6
   # Author Section Settings
   [params.author_section]
     enable = true
-    author_section_title = "Welcome to The Whiterocker"
+    author_section_title = "Season's Greetings <p>from</p> The Whiterocker."
     author_section_subtitle = ""
     author_section_description = "The Whiterocker is a food truck experience like no other. Inspired by the serenity and camaraderie found around White Rock Lake, we’ve crafted a mobile cafe that’s all about bringing people together over great food and drinks. Whether you’re stopping by for a fresh brew, a tasty bite, or just to relax and connect, The Whiterocker is here to serve up comfort and community wherever you find us. Join us as we roll through the city, spreading good vibes and creating memorable moments, one stop at a time."
     author_section_image = ""

@@ -1,40 +1,83 @@
 {{ if .Site.Params.author_section.enable }}
 <!-- begin author -->
-<section class="section author animate">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-        <div class="author__inner">
-          <!-- {{ if .Site.Params.author_section.author_section_image }}
-          <div class="author__image">
-            <img class="lazy" data-src="{{ .Site.Params.author_section.author_section_image }}" alt="{{ .Site.Params.author_section.author_section_image_alt }}">
-          </div>
-          {{ end }} -->
-          <div class="author__content">
-            <div class="wrapper">
-              <div class="card red">♦️</div>
-              <div class="card red">♦️</div>
-              <div class="card red"><img class="logo_image" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Title }}"></div>
-              <div class="card red">♦️</div>
-              <div class="card red">♦️</div>
-            </div>
-            {{ if .Site.Params.author_section.author_section_title }}
-            <h2 class="author__title">{{ .Site.Params.author_section.author_section_title | safeHTML }}</h2>
-            {{ end }}
-            {{ if .Site.Params.author_section.author_section_subtitle }}
-            <h3 class="author__subtitle">{{ .Site.Params.author_section.author_section_subtitle | safeHTML }}</h3>
-            {{ end }}
-            {{ if .Site.Params.author_section.author_section_description }}
-            <p class="author__description">{{ .Site.Params.author_section.author_section_description | safeHTML }}</p>
-            {{ end }}
-            {{ if .Site.Params.author_section.author_section_button_text }}
-            <a href="{{ .Site.Params.author_section.author_section_button_link | relURL }}" class="author__button button">{{ .Site.Params.author_section.author_section_button_text }}</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
+<div class="author-container" style="padding-bottom: 5rem;">
+  <div class="scrollAnim anim">
+    <div class="content" style="justify-content: center;">
+      <div class="logo" style="justify-items: center; padding-bottom: 20px;">
+        <a class="logo__link" href="{{ .Site.BaseURL }}">
+          {{ if or (.Site.Params.logo) (.Site.Params.logo_dark) }}
+          <img class="logo__image" src="{{ .Site.BaseURL }}{{ .Site.Params.landing }}" alt="{{ .Site.Title }}">
+          <img class="logo__image__dark" src="{{ .Site.BaseURL }}{{ .Site.Params.landing_dark }}" alt="{{ .Site.Title }}">
+          {{ else }}
+            {{ .Site.Title }}
+          {{ end }}
+        </a>
+      </div>      
+      <h1 class="anim-left">Savor the Flavors. Create the Connections.</h1>
+      <h3 class="anim-left" style="margin-top: 5px;">Our mission is to foster the spirit of community in Dallas and beyond.</h3>
+      <a href="/contact" class="button button--big">Contact Us</a>
     </div>
   </div>
-</section>
+  <div class="scrollAnim">
+    <div class="content">
+      <div class="logo" style="padding-bottom: 20px;">
+        <a class="logo__link" href="{{ .Site.BaseURL }}">
+          {{ if or (.Site.Params.logo) (.Site.Params.logo_dark) }}
+          <img class="logo__image" src="{{ .Site.BaseURL }}{{ .Site.Params.catering }}" alt="{{ .Site.Title }}">
+          <img class="logo__image__dark" src="{{ .Site.BaseURL }}{{ .Site.Params.catering_dark }}" alt="{{ .Site.Title }}">
+          {{ else }}
+            {{ .Site.Title }}
+          {{ end }}
+        </a>
+      </div>  
+      <h2 class="anim-left">CATERING</h2>
+      <p class="anim-left">Our version of catering is about more than just food—it’s about delivering an experience. 
+        Our menu is crafted to delight, made with the freshest ingredients. Pair your meal with our specialty drinks, including refreshing aguas frescas, cafe beverages or matchas for releaxing dining experience. 
+        Whether it’s a private celebration or a corporate event, we’re here to bring great flavors, warm hospitality, and unforgettable moments to your gathering.</p>
+      <a href="/catering" class="button button--big" type="submit">Learn More</a>
+      </div>
+  </div>
+  <div class="scrollAnim">
+    <div class="content">
+      <div class="logo" style="padding-bottom: 20px;">
+        <a class="logo__link" href="{{ .Site.BaseURL }}">
+          {{ if or (.Site.Params.logo) (.Site.Params.logo_dark) }}
+          <img class="logo__image" src="{{ .Site.BaseURL }}{{ .Site.Params.community }}" alt="{{ .Site.Title }}">
+          <img class="logo__image__dark" src="{{ .Site.BaseURL }}{{ .Site.Params.community_dark }}" alt="{{ .Site.Title }}">
+          {{ else }}
+            {{ .Site.Title }}
+          {{ end }}
+        </a>
+      </div> 
+      <h2 class="anim-left">COMMUNITY</h2>
+      <p class="anim-top">At The Whiterocker, community means bringing people together in a way that’s both engaging and unforgettable. 
+        We believe in creating shared experiences that go beyond great food—moments where conversations spark, bonds are formed, and new passions are discovered. 
+        Whether it’s through our inviting atmosphere, warm hospitality, or the joy of something unexpected, we’re here to inspire connection and celebrate the spirit of togetherness, one gathering at a time.
+      </p>
+      <a href="/poker" class="button button--big" type="submit">Learn More</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.addEventListener('scroll', () => {
+    let page = this;
+    let pageTop = this.scrollY;
+    let pageHeight = this.outerHeight / 2;
+
+    let frames = document.querySelectorAll('.scrollAnim');
+    frames.forEach(frame => {
+      let frameTop = frame.offsetTop;
+      let frameHeight = frame.offsetHeight;
+
+      if (pageTop >= frameTop - pageHeight &&
+        pageTop < frameTop + frameHeight / 1) {
+        frame.classList.add('anim');
+      } else {
+        frame.classList.remove('anim');
+      }
+    });
+  });
+</script>
 <!-- end author -->
 {{ end }}

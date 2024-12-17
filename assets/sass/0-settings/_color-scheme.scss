@@ -17,6 +17,8 @@
   --background-alt-color: var(--lighten-blue);
   --background-alt-color-2: var(--light-blue);
 
+  --gold: #ffb300;
+
   --text-color: var(--dark);
   --author-text-alt-color: var(--dark);
   --text-alt-color: var(--blue-gray);
@@ -42,6 +44,10 @@
   --author-content-background-color: var(--white);
   --author-content-outline-color: var(--royal);
   --author-content-font-color: var(--royal);
+
+  --landing-background: url('/images/backgrounds/light-1.jpeg');
+  --catering-background: url('/images/backgrounds/light-3.jpeg');
+  --community-background: url('/images/backgrounds/light-2.jpeg');
 }
 
 :root[dark] {
@@ -81,4 +87,9 @@
 
   --author-content-background-color: var(--royal);
   --author-content-outline-color: var(--white);
-  --author-content-font-color: var(--white);}
+  --author-content-font-color: var(--white);
+
+  --landing-background: url('/images/backgrounds/dark-3.jpeg');
+  --catering-background: url('/images/backgrounds/dark-2.jpeg');
+  --community-background: url('/images/backgrounds/dark-1.jpeg');
+}

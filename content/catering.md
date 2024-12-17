@@ -6,7 +6,7 @@ image: ''
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/services/catering-services-cover.jpeg" loading="lazy" alt="Author">
+    <img src="/images/services/catering-service.webp" loading="lazy" alt="Author">
   </div>
   <em>Photo of <b>White Rock Lake</b></em>
 </div>
@@ -34,7 +34,7 @@ You can customize your catering package to suit your event. Let us know your pre
 
 ## **Pricing & Reservation Details**  
 ### Flat-Rate Pricing for an Unforgettable Experience  
-Our comprehensive catering package is available for **$1,500**, which includes:  
+Our comprehensive catering package is available for **$2,500**, which includes:  
 - **Delicious food service** for your guests.  
 - **A poker dealer**, adding a unique entertainment option to your event.  
 

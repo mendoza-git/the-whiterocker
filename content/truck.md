@@ -6,7 +6,7 @@ image: ''
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/services/truck-services-cover.jpeg" loading="lazy" alt="Author">
+    <img src="/images/services/truck-service.webp" loading="lazy" alt="Author">
   </div>
   <em>Photo of <b>White Rock Lake</b></em>
 </div>
