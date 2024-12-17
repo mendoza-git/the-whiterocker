@@ -340,15 +340,12 @@
   .scrollAnim:nth-child(1){
     background-image: var(--landing-background);
 
+    .logo {
+      justify-items: center;
+    }
+
     @media (max-width: $mobile) {
       text-align: center;
-
-      .logo {
-        justify-content: center;
-        align-content: center;
-        justify-items: center;
-        justify-content: center;
-      }
     }
   }
   .scrollAnim:nth-child(2){
