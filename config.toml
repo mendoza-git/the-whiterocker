@@ -56,7 +56,7 @@ paginate = 6
 
   [[menu.footer]]
     name = "SERVICES"
-    url = "/projects/"
+    url = "/services/"
     weight = 2
 
   [[menu.footer]]
