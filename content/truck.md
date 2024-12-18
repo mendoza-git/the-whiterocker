@@ -8,7 +8,6 @@ image: ''
   <div class="gallery">
     <img src="/images/services/truck-service.webp" loading="lazy" alt="Author">
   </div>
-  <em>Photo of <b>White Rock Lake</b></em>
 </div>
 
 

@@ -8,7 +8,6 @@ image: ''
   <div class="gallery">
     <img src="/images/services/catering-service.webp" loading="lazy" alt="Author">
   </div>
-  <em>Photo of <b>White Rock Lake</b></em>
 </div>
 
 
@@ -20,7 +19,7 @@ Our catering services are built on the pillars of **Catering, Cafe, and Communit
 ---
 
 ## **What We Offer**  
-### A Taste of White Rock Lake  
+ 
 Our menu is inspired by the vibrant flavors of Texas and includes:  
 - **Fajita Street Tacos**  
 - **Fajita Quesadillas**  

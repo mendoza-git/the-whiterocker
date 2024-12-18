@@ -308,7 +308,7 @@ paginate = 6
   [params.mailchimp]
     enable = true
     mailchimp_title = "Monthly newsletter coming soon 📬"
-    mailchimp_description = "News, deals and updates. Stay up to date with everything happening around the White Rock Lake community."
+    mailchimp_description = "News, deals and updates. Stay up to date with everything happening around the Whiterocker community."
     mailchimp_identifier = "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp" # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
     mailchimp_input_text = "Your email address"
 
