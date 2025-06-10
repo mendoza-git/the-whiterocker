@@ -25,26 +25,28 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Theme Switcher
-  if (true) {
-    darkMode();
-    // toggleTheme.addEventListener("click", () => {
-    //   darkMode();
-    // });
-  };
+  // Always default to dark mode
+  html.classList.add('dark-mode');
+  document.documentElement.setAttribute("dark", "");
+
+  // Add event listener for theme toggle
+  if (toggleTheme) {
+    toggleTheme.addEventListener("click", () => {
+      darkMode();
+    });
+  }
 
   function darkMode() {
-    html.classList.add('dark-mode');
-    console.log("Dark mode enabled");
-    // if (html.classList.contains('dark-mode')) {
-    //   html.classList.remove('dark-mode');
-    //   localStorage.removeItem("theme");
-    //   document.documentElement.removeAttribute("dark");
-    // } else {
-    //   html.classList.add('dark-mode');
-    //   localStorage.setItem("theme", "dark");
-    //   document.documentElement.setAttribute("dark", "");
-    // }
-  };
+    if (html.classList.contains('dark-mode')) {
+      html.classList.remove('dark-mode');
+      localStorage.removeItem("theme");
+      document.documentElement.removeAttribute("dark");
+    } else {
+      html.classList.add('dark-mode');
+      localStorage.setItem("theme", "dark");
+      document.documentElement.setAttribute("dark", "");
+    }
+  }
 
 
   /* ============================
