@@ -26,21 +26,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Theme Switcher
   if (toggleTheme) {
-    toggleTheme.addEventListener("click", () => {
-      darkMode();
-    });
+    darkMode();
+    // toggleTheme.addEventListener("click", () => {
+    //   darkMode();
+    // });
   };
 
   function darkMode() {
-    if (html.classList.contains('dark-mode')) {
-      html.classList.remove('dark-mode');
-      localStorage.removeItem("theme");
-      document.documentElement.removeAttribute("dark");
-    } else {
-      html.classList.add('dark-mode');
-      localStorage.setItem("theme", "dark");
-      document.documentElement.setAttribute("dark", "");
-    }
+    html.classList.add('dark-mode');
+    // if (html.classList.contains('dark-mode')) {
+    //   html.classList.remove('dark-mode');
+    //   localStorage.removeItem("theme");
+    //   document.documentElement.removeAttribute("dark");
+    // } else {
+    //   html.classList.add('dark-mode');
+    //   localStorage.setItem("theme", "dark");
+    //   document.documentElement.setAttribute("dark", "");
+    // }
   };
 
 
