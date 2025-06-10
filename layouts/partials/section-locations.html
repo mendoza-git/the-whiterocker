@@ -1,6 +1,5 @@
 {{ if .Site.Params.locations.enable }}
-<!-- begin locations -->
-<section class="section locations animate">
+{{/*  <section class="section locations animate">
   <div class="container">
     <div class="row">
       <div class="col col-12">
@@ -34,7 +33,7 @@
                       {{ if .content }}
                         <p class="client-text">{{ .content }}</p>
                       {{ end }}
-                      <!-- <div class="client-meta">
+                      <div class="client-meta">
                         <div class="client-info">
                           {{ if .name }}
                             <h4 class="client-name">{{ .name }}</h4>
@@ -43,7 +42,7 @@
                             <p class="client-designation">{{ .designation }}</p>
                           {{ end }}
                         </div>
-                      </div> -->
+                      </div>
                     </div>
                   </div>
                 {{ end }}
@@ -56,7 +55,7 @@
           {{ if .Site.Params.locations.locations_info }}
           <div class="client-list__info">{{ .Site.Params.locations.locations_info | safeHTML }}</div>
           {{ end }}
-          <!-- <div class="client-list__box">
+          <div class="client-list__box">
           {{ with .Site.Params.location_item }}
             {{ range . }}
               {{ if .image }}
@@ -66,12 +65,11 @@
               {{ end }}
             {{ end }}
           {{ end }}
-          </div> -->
+          </div>
         </div>
 
       </div>
     </div>
   </div>
-</section>
-<!-- end locations -->
+</section>  */}}
 {{ end }}

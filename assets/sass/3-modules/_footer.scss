@@ -1,7 +1,7 @@
 /* Footer */
 .footer__inner {
   padding: 60px 0;
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color-alt);
   border-bottom: 1px solid var(--border-color);
 
   .row .col {
@@ -54,6 +54,11 @@
   .logo-footer__image__dark {
     display: block;
   }
+}
+
+.footer__navigation {
+  position: relative;
+  top: 30%;
 }
 
 /* Footer Navigation */

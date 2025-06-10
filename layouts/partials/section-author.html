@@ -1,44 +1,38 @@
 {{ if .Site.Params.author_section.enable }}
-<!-- begin author -->
-<div class="author-container" style="padding-bottom: 5rem;">
-  <div class="scrollAnim anim">
-    <div class="content" style="justify-content: center;">
-      <div class="logo" style="padding-bottom: 20px;">
-        <a class="logo__link" href="{{ .Site.BaseURL }}">
-          {{ if or (.Site.Params.logo) (.Site.Params.logo_dark) }}
-          <img class="logo__image" src="{{ .Site.BaseURL }}{{ .Site.Params.landing }}" alt="{{ .Site.Title }}">
-          <img class="logo__image__dark" src="{{ .Site.BaseURL }}{{ .Site.Params.landing_dark }}" alt="{{ .Site.Title }}">
-          {{ else }}
-            {{ .Site.Title }}
-          {{ end }}
-        </a>
-      </div>      
-      <h1 class="anim-left">Savor the Flavors. Create the Connections.</h1>
-      <h3 class="anim-left" style="margin-top: 5px;">Our mission is to foster the spirit of community in Dallas and beyond.</h3>
-      <a href="/contact" class="button button--big">Contact Us</a>
+  <div class="wrapper" style="margin-bottom: 50px;">
+    <div class="wrapper-inner-author">
+      <div style="text-align: center; margin-bottom: 30px; margin-top: 30px;">
+        <h3 style="font-family: 'Georgia', serif; font-size: 28px; color: black; margin-bottom: 10px;">Summer Menu</h3>
+        <hr style="border: none; border-top: 1px solid black; margin: 10px auto; width: 50%;">
+        <p style="font-family: 'Georgia', serif; font-size: 18px; color: gray;">Experience the finest dishes crafted with passion</p>
+      </div>
+      <div style="display: flex; justify-content: space-between; margin-bottom: 30px; margin-top: 30px; border-top: 2px solid rgb(0, 49, 92); border-bottom: 2px solid rgb(0, 49, 92); padding: 20px 0;">
+        <div style="width: 48%; text-align: center; margin-top: 20px;">
+          <h2 style="font-family: 'Georgia', serif; font-size: 24px; color:black; margin-bottom: 10px;">Main</h2>
+          <ul style="list-style: none; padding: 0; font-family: 'Georgia', serif; font-size: 18px;">
+            <li>Classic Taco - $3</li>
+            <li>Street Corn - $4</li>
+            <li>Chips with Salsa & Guac Platter - $5</li>
+          </ul>
+        </div>
+        <div style="width: 48%; text-align: center; margin-top: 20px;">
+          <h2 style="font-family: 'Georgia', serif; font-size: 24px; color:black; margin-bottom: 10px;">Bakery</h2>
+          <ul style="list-style: none; padding: 0; font-family: 'Georgia', serif; font-size: 18px;">
+            <li>Classic Muffin - $5</li>
+            <li>Banana Nut Bread - $6</li>
+            <li>Rellenitos/Fried Banana - $5</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 30px;">
+        <h2 style="font-family: 'Georgia', serif; font-size: 24px; color: black; margin-bottom: 10px;">Drinks</h2>
+        <ul style="list-style: none; padding: 0; font-family: 'Georgia', serif; font-size: 18px;">
+          <li>Agua Fresca - $5</li>
+          <li>Cold Brew - $4</li>
+          <li>Iced Matcha - $5</li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-
-<script>
-  window.addEventListener('scroll', () => {
-    let page = this;
-    let pageTop = this.scrollY;
-    let pageHeight = this.outerHeight / 2;
-
-    let frames = document.querySelectorAll('.scrollAnim');
-    frames.forEach(frame => {
-      let frameTop = frame.offsetTop;
-      let frameHeight = frame.offsetHeight;
-
-      if (pageTop >= frameTop - pageHeight &&
-        pageTop < frameTop + frameHeight / 1) {
-        frame.classList.add('anim');
-      } else {
-        frame.classList.remove('anim');
-      }
-    });
-  });
-</script>
-<!-- end author -->
 {{ end }}

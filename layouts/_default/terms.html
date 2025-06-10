@@ -1,27 +1,132 @@
 {{ define "main" }}
 
-<!-- begin tags -->
-<section class="section tags">
-  <div class="tags__inner">
-    <div class="container">
-      <div class="tag__info">
-        <h1 class="tag__title">{{ .Title }}</h1>
-      </div>
-      <div class="row">
-        {{ range .Pages }}
-        <div class="col col-2 col-w-3 col-d-6 col-m-12">
-          <a href="{{ .RelPermalink }}" class="tag-image" title="{{ .Title }}">
-            <img class="lazy" {{ range .Data.Pages }}data-src="{{ .Params.Image | absURL }}" {{ end }} alt="{{ .Title }}">
-            <span class="tag-name">{{ .Title }}</span>
-          </a>
+<div class="container">
+  <section class="section terms animate">
+    <div class="container" style="padding-left: 0">
+      <div class="container__inner">
+        <div style="margin-top: 30px; margin-bottom: 30px; color:#fff;">
+          <h1>Terms and Conditions</h1>
+          <p>Welcome to The Whiterocker LLC. These Terms and Conditions govern your use of our website and services. By accessing or using our website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree, please refrain from using our website.</p>
         </div>
-        {{ end }}
+
+        <div class="accordion">
+          <button class="accordion-header">1. Introduction</button>
+          <div class="accordion-panel">
+            <p>The Whiterocker LLC operates a private members’ club and associated services. These Terms and Conditions apply to all users of our website and services. Additional terms may apply to specific services or memberships, which will be provided separately.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">2. Use of the Website</button>
+          <div class="accordion-panel">
+            <p>You agree to use our website only for lawful purposes and in a manner that does not infringe the rights of others or restrict their use and enjoyment of the website. You must not misuse our website by introducing viruses, attempting unauthorized access, or engaging in any activity that disrupts its functionality.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">3. Membership Terms</button>
+          <div class="accordion-panel">
+            <p>Membership to The Whiterocker is subject to approval and governed by separate membership terms and conditions. Members are required to comply with the rules of the club, which are provided upon acceptance of membership.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">4. Intellectual Property</button>
+          <div class="accordion-panel">
+            <p>All content on this website, including text, images, logos, and designs, is the property of The Whiterocker LLC or its licensors and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or use any content without prior written consent.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">5. Limitation of Liability</button>
+          <div class="accordion-panel">
+            <p>The Whiterocker LLC is not liable for any direct, indirect, incidental, or consequential damages arising from your use of our website or services. We do not guarantee that our website will be error-free or uninterrupted.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">6. Privacy Policy</button>
+          <div class="accordion-panel">
+            <p>Your use of our website is also governed by our Privacy Policy, which explains how we collect, use, and protect your personal information. By using our website, you consent to the practices described in our Privacy Policy.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">7. Changes to Terms</button>
+          <div class="accordion-panel">
+            <p>We reserve the right to update these Terms and Conditions at any time. Any changes will be posted on this page, and your continued use of the website constitutes acceptance of the updated terms.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">8. Governing Law</button>
+          <div class="accordion-panel">
+            <p>These Terms and Conditions are governed by the laws of England and Wales. Any disputes arising from these terms will be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">9. Contact Us</button>
+          <div class="accordion-panel">
+            <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
+            <p>Email: membership@thewhiterocker.com</p>
+            <p>Address: 5th Floor, 105 Piccadilly, London, England, W1J 7NJ</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- end tags -->
+  </section>
+</div>
 
-{{ partial "section-subscribe.html" . }}
+<style>
+  .accordion-header {
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1.25em;
+    text-align: left;
+    background-color: rgba(26, 26, 26, 0) !important;
+    border: none;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: white !important;
+  }
+
+  .accordion-header:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .accordion-panel {
+    background-color: rgba(255, 255, 255, 0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    padding-top: 15px;
+    color: white !important;
+  }
+
+  .accordion.open .accordion-panel {
+    max-height: 500px;
+  }
+
+  .accordion-header.open {
+    color:rgb(255, 186, 68) !important;
+    border-bottom: 1px solid #dabf91;
+  }
+</style>
+
+<script>
+  document.querySelectorAll(".accordion-header").forEach(button => {
+    button.addEventListener("click", () => {
+      const accordion = button.parentElement;
+      accordion.classList.toggle("open");
+      if (accordion.classList.contains("open")) {
+        button.classList.add("open");
+      } else {
+        button.classList.remove("open");
+      }
+    });
+  });
+</script>
 
 {{ end }}

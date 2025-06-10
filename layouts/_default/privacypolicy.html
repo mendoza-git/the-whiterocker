@@ -1,0 +1,171 @@
+{{ define "main" }}
+
+
+<div class="container">
+  <section class="section services animate">
+    <div class="container" style="padding-left: 0">
+      <div class="container__inner">
+        <div style="margin-top: 30px; margin-bottom: 30px; color:#fff;">
+          This Privacy Notice sets out how we at The Whiterocker use, protect and share the personal information that we collect from you when you use our website, when you apply for a job with us or when you interact with us or contact us in any other way.
+          We have a separate privacy notice available for members that contains additional information relating to our use of their personal information which is specific to their membership and the membership services and facilities that we provide. This privacy notice is accessible via a link in the footer of our membership portal once a member has logged in.
+          We do not knowingly collect personal information relating to children, except name and age for registration for children’s parties and events we run (with parental consent). Our website is not intended for children.
+        </div>
+        <div class="accordion">
+          <button class="accordion-header">Who are we?</button>
+          <div class="accordion-panel">
+            We, The Whiterocker LLC, own and operate the private members’ club known as The Whiterocker, located at 2-5 Whiterocker Street, Mayfair, London W1J 7RB (the “Club”). We are a Data Controller, which means that we are responsible under Data Protection Laws for ensuring that your personal information is protected.
+            Our full company details are:
+            Legal entity name: The Whiterocker LLC
+            Company registration: Registered in England and Wales (Company number 06913368)
+            Registered office: 5th Floor, 105 Piccadilly, London, England, W1J 7NJ.
+            Email address: membership@thewhiterocker.com
+            You can contact us at the above address should you have any questions about this Privacy Notice, or if you would like to exercise any of your rights under Data Protection Laws, which we set out below.
+            If you are an employee of the Club, please see our separate internal Employee Privacy Notice. If you are a member of the Club or a membership applicant, please see our separate Members’ Privacy Notice in the membership portal of our website.
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">What information do we collect?</button>
+          <div class="accordion-panel">
+            We collect personal information that you provide to us directly, such as your name, contact details, and payment information when you interact with us, apply for membership, or use our services. We may also collect information indirectly, such as through cookies and analytics tools when you visit our website.
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">How do we use your information?</button>
+          <div class="accordion-panel">
+            We use your information to provide our services, manage memberships, process payments, communicate with you, and comply with legal obligations. We may also use your information for marketing purposes, but only if you have given us your consent.
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">Who do we share your information with?</button>
+          <div class="accordion-panel">
+            We may share your information with trusted third parties, such as payment processors, service providers, and legal authorities, where necessary. We ensure that these parties handle your information securely and in compliance with Data Protection Laws.
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">How do we protect your information?</button>
+          <div class="accordion-panel">
+            We implement appropriate technical and organizational measures to safeguard your personal information against unauthorized access, loss, or misuse. This includes secure servers, encryption, and regular security assessments.
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">Your rights under Data Protection Laws</button>
+          <div class="accordion-panel">
+            You have the right to access, correct, delete, or restrict the processing of your personal information. You also have the right to object to processing and to data portability. If you wish to exercise any of these rights, please contact us at membership@thewhiterocker.com.
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">Changes to this Privacy Notice</button>
+          <div class="accordion-panel">
+            We may update this Privacy Notice from time to time to reflect changes in our practices or legal requirements. Any updates will be posted on our website, and we encourage you to review this page periodically.
+          </div>
+        </div></div>
+    </div>
+  </section>
+</div>
+
+<style>
+  .accordion-header {
+   width: 100%;
+   padding: 1em 0;
+   font-size: 1.25em;
+   text-align: left;
+   background-color:rgba(26, 26, 26, 0) !important;
+   border: none;
+   border-bottom: 1px solid #fff;
+   cursor: pointer;
+   transition: background 0.3s ease;
+   color: white !important;
+ }
+ 
+ .accordion-header:hover {
+   background-color:rgba(255, 255, 255, 0);
+ }
+ 
+ .accordion-panel {
+   background-color: rgba(255, 255, 255, 0);
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s ease;
+   padding-top: 15px;
+   color: white !important;
+ }
+ 
+ .accordion-panel table {
+   width: 100%;
+   border-collapse: collapse;
+   margin: 1em 0;
+ }
+ 
+ .accordion-panel th,
+ .accordion-panel td {
+   padding: 0.75em;
+   border-bottom: 1px solid rgba(255, 255, 255, 0);
+   text-align: left;
+ }
+ 
+ .accordion-panel th {
+   background-color: rgba(255, 255, 255, 0);
+ }
+ 
+ .accordion.open .accordion-panel {
+   max-height: 500px;
+ }
+
+ .accordion-header.open {
+  color:rgb(255, 186, 68) !important;
+  border-bottom: 1px solid #dabf91;
+}
+ 
+ table td, table th {
+   background-color: transparent !important;
+   color: white !important;
+   border: 1px solid white !important;
+ }
+ 
+ table tr {
+   background-color: transparent;
+ }
+ 
+ /* Optional: Responsive */
+ @media (max-width: 600px) {
+   .accordion-panel td, .accordion-panel th {
+     font-size: 0.9em;
+   }
+ }
+ 
+ @media (max-width: 600px) {
+   .page__info {
+     text-align: center;
+   }
+ }
+ </style>
+ 
+ <script>
+  document.querySelectorAll(".accordion-header").forEach(button => {
+    button.addEventListener("click", () => {
+      const accordion = button.parentElement;
+      accordion.classList.toggle("open");
+      if (accordion.classList.contains("open")) {
+        button.classList.add("open");
+      } else {
+        button.classList.remove("open");
+      }
+    });
+  });
+</script>
+ 
+ 
+ 
+  
+
+{{ end }}
+
+
+
+

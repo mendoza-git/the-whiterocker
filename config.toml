@@ -16,7 +16,7 @@ paginate = 6
     weight = 1
 
   [[menu.main]]
-    name = "SERVICES"
+    name = "Guest Information"
     url = "/services/"
     weight = 2
 
@@ -49,20 +49,21 @@ paginate = 6
         weight = 2
 
   # Footer Menu
-  [[menu.footer]]
-    name = "HOME"
-    url = "/"
-    weight = 1
 
   [[menu.footer]]
-    name = "SERVICES"
+    name = "Guest Information"
     url = "/services/"
     weight = 2
 
   [[menu.footer]]
-    name = "ABOUT"
+    name = "Privacy Policy"
     url = "/about/"
     weight = 4
+
+  [[menu.footer]]
+    name = "Terms and Conditions"
+    url = "/terms/"
+    weight = 5
 
 
   # Call to action button
@@ -79,7 +80,7 @@ paginate = 6
   description = "Gerous is a modern portfolio Hugo theme"
   color_scheme = "auto"
   landing="/images/pngs/landing-icon-light.png"
-  landing_dark="/images/pngs/landing-icon-dark.png"
+  landing_dark="/images/whiterocker-cafe-menu@5x.png"
   catering="/images/pngs/catering-light.png"
   catering_dark="/images/pngs/catering-dark.png"
   community="/images/pngs/community-icon-light.png"
@@ -259,6 +260,17 @@ paginate = 6
   #-------------------------------
   # Author Section Settings
   [params.author_section]
+    enable = true
+    author_section_title = "Season's Greetings <p>from</p> The Whiterocker."
+    author_section_subtitle = ""
+    author_section_description = "The Whiterocker is a food truck experience like no other. Inspired by the serenity and camaraderie found around White Rock Lake, we’ve crafted a mobile cafe that’s all about bringing people together over great food and drinks. Whether you’re stopping by for a fresh brew, a tasty bite, or just to relax and connect, The Whiterocker is here to serve up comfort and community wherever you find us. Join us as we roll through the city, spreading good vibes and creating memorable moments, one stop at a time."
+    author_section_image = ""
+    author_section_image_alt = ""
+    author_section_button_text = ""
+    author_section_button_link = "/contact"
+
+
+  [params.privacy_section]
     enable = true
     author_section_title = "Season's Greetings <p>from</p> The Whiterocker."
     author_section_subtitle = ""

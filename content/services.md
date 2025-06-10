@@ -1,42 +1,147 @@
 ---
-title: Our Services
-description: Browse through our list of services and prices.
+title: Guest Information
+description: Browse through our list of services and contact information. We always look forward to hearing about how The Whiterocker can assist you with your next event.
 image: ''
 ---
 
 <section class="section services animate">
-  <div class="container">
+  <div class="container" style="padding-left: 0">
     <div class="container__inner">
-      <div class="row services-row">
-        <div onclick="window.location.href='/catering'" style="background-image: url(/images/backgrounds/services-hover.jpeg)" class="service col col-4 col-d-12 col-t-12">
-          <div class="service__content">
-            <div style="text-align: center;">
-              <img src="/images/catering.svg" alt="Service Icon" style="width: 60px; height: 60px;">
-            </div>
-            <p class="service__title">Private Catering</p>
-            <p class="service__subtitle">Bring The Whiterocker experience directly to you.</p>
-          </div>
-        </div>
-        <div onclick="window.location.href='/truck'" style="background-image: url(/images/backgrounds/services-hover.jpeg)" class="service col col-4 col-d-12 col-t-12">
-          <div class="service__content">
-           <div style="text-align: center;">
-              <img src="/images/board.svg" alt="Service Icon" style="width: 60px; height: 60px;">
-            </div>
-            <p class="service__title">The Truck</p>
-            <p class="service__subtitle">Join us and grab a bite from our food truck at our scheduled public events.</p>
-          </div>
-        </div>
-        <div onclick="window.location.href='/poker'" style="background-image: url(/images/backgrounds/services-hover.jpeg)" class="service col col-4 col-d-12 col-t-12">
-          <div class="service__content">
-           <div style="text-align: center;">
-              <img src="/images/diamond.svg" alt="Service Icon" style="width: 60px; height: 60px;">
-            </div>
-            <p class="service__title">Dealer Services</p>
-            <p class="service__subtitle">Inquire about how our dealers can enhance your game nights.</p>
-          </div>
-        </div>
-      </div>
+      <div class="accordion">
+    <button class="accordion-header">Hours of Operation</button>
+    <div class="accordion-panel">
+      <table>
+        <thead>
+          <tr><th>Day</th><th>Hours</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>Closed</td></tr>
+          <tr><td>Tuesday</td><td>4 PM – 11 PM</td></tr>
+          <tr><td>Wednesday</td><td>4 PM – 11 PM</td></tr>
+          <tr><td>Thursday</td><td>4 PM – 11 PM</td></tr>
+          <tr><td>Friday</td><td>4 PM – 12 AM</td></tr>
+          <tr><td>Saturday</td><td>2 PM – 12 AM</td></tr>
+          <tr><td>Sunday</td><td>2 PM – 10 PM</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-header">Contact</button>
+    <div class="accordion-panel">
+      <table>
+        <thead>
+          <tr><th>Department</th><th>Phone</th><th>Email</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>General</td>
+            <td>(123) 456-7890</td>
+            <td>info@whiterocker.com</td>
+          </tr>
+          <tr>
+            <td>Events</td>
+            <td>(123) 456-7891</td>
+            <td>events@whiterocker.com</td>
+          </tr>
+          <tr>
+            <td>Catering</td>
+            <td>(123) 456-7892</td>
+            <td>catering@whiterocker.com</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
+
+<style>
+ .accordion-header {
+  width: 100%;
+  padding: 1em 0;
+  font-size: 1.25em;
+  text-align: left;
+  background-color:rgba(26, 26, 26, 0) !important;
+  border: none;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: white !important;
+}
+
+.accordion-header:hover {
+  background-color:rgba(255, 255, 255, 0);
+}
+
+.accordion-panel {
+  background-color: rgba(255, 255, 255, 0);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.accordion-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+.accordion-panel th,
+.accordion-panel td {
+  padding: 0.75em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  text-align: left;
+}
+
+.accordion-panel th {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.accordion.open .accordion-panel {
+  max-height: 500px;
+}
+
+.accordion-header.open {
+  color:rgb(255, 186, 68) !important;
+  border-bottom: 1px solid #dabf91;
+}
+
+table td, table th {
+  background-color: transparent !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+table tr {
+  background-color: transparent;
+}
+
+/* Optional: Responsive */
+@media (max-width: 600px) {
+  .accordion-panel td, .accordion-panel th {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 600px) {
+  .page__info {
+    text-align: center;
+  }
+}
+</style>
+
+<script>
+  document.querySelectorAll(".accordion-header").forEach(button => {
+    button.addEventListener("click", () => {
+      const accordion = button.parentElement;
+      accordion.classList.toggle("open");
+      if (accordion.classList.contains("open")) {
+        button.classList.add("open");
+      } else {
+        button.classList.remove("open");
+      }
+    });
+  });
+</script>
 

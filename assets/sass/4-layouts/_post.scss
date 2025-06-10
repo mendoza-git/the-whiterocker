@@ -94,6 +94,7 @@
 .page__title {
   margin-bottom: 24px;
   font-size: 52px;
+  
 
   @media (max-width: $tablet) {
     font-size: 42px;
@@ -107,6 +108,7 @@
 .post__description,
 .page__description {
   margin-bottom: 0;
+  color: #fff;
 }
 
 .post-image,
