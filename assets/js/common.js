@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
   /* =======================================================
   // Menu + Theme Switcher
   ======================================================= */
-  menuToggle.addEventListener("click", () => {
-    menu();
-  });
+  // menuToggle.addEventListener("click", () => {
+  //   menu();
+  // });
 
   // Menu
   function menu() {
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Theme Switcher
-  if (toggleTheme) {
+  if (true) {
     darkMode();
     // toggleTheme.addEventListener("click", () => {
     //   darkMode();
@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function darkMode() {
     html.classList.add('dark-mode');
+    console.log("Dark mode enabled");
     // if (html.classList.contains('dark-mode')) {
     //   html.classList.remove('dark-mode');
     //   localStorage.removeItem("theme");
